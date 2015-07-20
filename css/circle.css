@@ -304,6 +304,14 @@
   height: 1em;
   clip: rect(0em, 1em, 1em, 0.5em);
 }
+.c100 .bar {
+	transition:
+		-webkit-transform 1s,
+		-moz-transform 1s,
+		-ms-transform 1s,
+		-o-transform 1s,
+		transform 1s;
+}
 .c100.p1 .bar {
   -webkit-transform: rotate(3.6deg);
   -moz-transform: rotate(3.6deg);
